@@ -1,0 +1,83 @@
+NET "osc" LOC = "P123";
+NET "input" LOC = "P45";
+NET "enable" loc = "P121";
+NET "reset" LOC = "P119";
+
+NET "input" CLOCK_DEDICATED_ROUTE = TRUE; 
+NET "enable" CLOCK_DEDICATED_ROUTE = TRUE; 
+NET "reset" CLOCK_DEDICATED_ROUTE = TRUE; 
+
+NET "switch<3>" LOC = "P2";
+NET "switch<2>" LOC = "P143";
+NET "switch<1>" LOC = "P1";
+NET "switch<0>" LOC = "P142";
+
+NET "switch<3>" CLOCK_DEDICATED_ROUTE = TRUE;
+NET "switch<2>" CLOCK_DEDICATED_ROUTE = TRUE;
+NET "switch<1>" CLOCK_DEDICATED_ROUTE = TRUE;
+NET "switch<0>" CLOCK_DEDICATED_ROUTE = TRUE;
+
+net "seg<7>" LOC = "P114";
+net "seg<6>" LOC = "P112";
+net "seg<5>" LOC = "P102";
+net "seg<4>" LOC = "P104";
+net "seg<3>" LOC = "p111";
+net "seg<2>" LOC = "P115";
+net "seg<1>" LOC = "P116";
+net "seg<0>" LOC = "P101";
+
+net "common<3>" LOC = "P118";
+net "common<2>" LOC = "P117";
+net "common<1>" LOC = "P100";
+net "common<0>" LOC = "P99";
+
+net "correct<3>" loc = "p131";
+net "correct<2>" loc = "p133";
+net "correct<1>" loc = "p137";
+net "correct<0>" loc = "p139";
+
+net "mistake" loc = "P120";
+net "win_symbols" loc = "P140";
+net "win_memories" loc = "P141";
+
+net "button<3>" loc = "P21";
+net "button<2>" loc = "P23";
+net "button<1>" loc = "P22";
+net "button<0>" loc = "P24";	
+
+NET "button<3>" CLOCK_DEDICATED_ROUTE = TRUE;
+NET "button<2>" CLOCK_DEDICATED_ROUTE = TRUE;
+NET "button<1>" CLOCK_DEDICATED_ROUTE = TRUE;
+NET "button<0>" CLOCK_DEDICATED_ROUTE = TRUE;	
+
+net "test<3>" loc = "P79";
+net "test<2>" loc = "P80";
+net "test<1>" loc = "P81";
+net "test<0>" loc = "P82";
+
+net "sub_display<7>" loc = "P14";
+net "sub_display<6>" loc = "P5";
+net "sub_display<5>" loc = "P10";
+net "sub_display<4>" loc = "P15";
+net "sub_display<3>" loc = "P17";
+net "sub_display<2>" loc = "P11";
+net "sub_display<1>" loc = "P8";
+net "sub_display<0>" loc = "P12";
+
+net "sub_common<4>" loc = "P126";
+net "sub_common<3>" loc = "P16";
+net "sub_common<2>" loc = "P9";
+net "sub_common<1>" loc = "P7";
+net "sub_common<0>" loc = "P6";
+
+net "display<4>" loc = "P138";
+net "display<3>" loc = "P134";
+net "display<2>" loc = "P132";
+net "display<1>" loc = "P127";
+net "display<0>" loc = "P124";
+
+net "step<4>" loc = "P88";
+net "step<3>" loc = "P92";
+net "step<2>" loc = "P93";
+net "step<1>" loc = "P94";
+net "step<0>" loc = "P95";
